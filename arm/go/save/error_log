@@ -1,0 +1,24 @@
+[13-Jul-2021 18:28:04 Asia/Colombo] PHP Warning:  move_uploaded_file(../../../images/part/m_210713062804.png): failed to open stream: No such file or directory in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[13-Jul-2021 18:28:04 Asia/Colombo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php961goD' to '../../../images/part/m_210713062804.png' in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[13-Jul-2021 21:58:31 Asia/Colombo] PHP Notice:  Undefined index: model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 7
+[13-Jul-2021 21:58:31 Asia/Colombo] PHP Notice:  Undefined index: sub_model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 8
+[13-Jul-2021 21:58:31 Asia/Colombo] PHP Notice:  Undefined variable: sub_model_name in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 20
+[13-Jul-2021 21:58:33 Asia/Colombo] PHP Notice:  Undefined index: model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 7
+[13-Jul-2021 21:58:33 Asia/Colombo] PHP Notice:  Undefined index: sub_model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 8
+[13-Jul-2021 21:58:33 Asia/Colombo] PHP Notice:  Undefined variable: sub_model_name in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 20
+[13-Jul-2021 22:41:34 Asia/Colombo] PHP Warning:  move_uploaded_file(../../../images/part/m_210713104134.jpg): failed to open stream: No such file or directory in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[13-Jul-2021 22:41:34 Asia/Colombo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php139QV3' to '../../../images/part/m_210713104134.jpg' in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[13-Jul-2021 22:42:55 Asia/Colombo] PHP Warning:  move_uploaded_file(../../../images/part/m_210713104255.jpg): failed to open stream: No such file or directory in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[13-Jul-2021 22:42:55 Asia/Colombo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpkMoDxG' to '../../../images/part/m_210713104255.jpg' in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[13-Jul-2021 22:42:56 Asia/Colombo] PHP Warning:  move_uploaded_file(../../../images/part/m_210713104256.jpg): failed to open stream: No such file or directory in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[13-Jul-2021 22:42:56 Asia/Colombo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpIO7pQd' to '../../../images/part/m_210713104256.jpg' in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[14-Jul-2021 09:35:04 Asia/Colombo] PHP Warning:  move_uploaded_file(../../../images/part/m_210714093504.jpeg): failed to open stream: No such file or directory in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[14-Jul-2021 09:35:04 Asia/Colombo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php3oz000' to '../../../images/part/m_210714093504.jpeg' in /home2/nedsdenc/public_html/arm/go/save/save_part.php on line 52
+[15-Jul-2021 11:53:00 Asia/Colombo] PHP Notice:  Undefined index: model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 7
+[15-Jul-2021 11:53:00 Asia/Colombo] PHP Notice:  Undefined index: sub_model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 8
+[15-Jul-2021 11:53:00 Asia/Colombo] PHP Notice:  Undefined variable: sub_model_name in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 20
+[15-Jul-2021 12:02:50 Asia/Colombo] PHP Notice:  Undefined index: model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 7
+[15-Jul-2021 12:02:50 Asia/Colombo] PHP Notice:  Undefined index: sub_model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 8
+[15-Jul-2021 12:02:50 Asia/Colombo] PHP Notice:  Undefined variable: sub_model_name in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 20
+[29-Jul-2021 18:50:16 Asia/Colombo] PHP Notice:  Undefined index: sub_model in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 8
+[29-Jul-2021 18:50:16 Asia/Colombo] PHP Notice:  Undefined variable: sub_model_name in /home2/nedsdenc/public_html/arm/go/save/save_diagram.php on line 20

@@ -1,0 +1,52 @@
+[08-Apr-2021 10:09:18 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:09:18 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:09:18 America/New_York] PHP Fatal error:  require(): Failed opening required '/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:11:56 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:11:56 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:11:56 America/New_York] PHP Fatal error:  require(): Failed opening required '/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:11:59 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:11:59 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:11:59 America/New_York] PHP Fatal error:  require(): Failed opening required '/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:11 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:11 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:11 America/New_York] PHP Fatal error:  require(): Failed opening required '/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:15 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:15 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:15 America/New_York] PHP Fatal error:  require(): Failed opening required '/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:16 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:16 America/New_York] PHP Warning:  require(/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:15:16 America/New_York] PHP Fatal error:  require(): Failed opening required '/home2/nedsdenc/arm.neds-den.com/auth/../vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 13
+[08-Apr-2021 10:17:20 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'nedsdenc_1'@'localhost' to database 'auth' in /home2/nedsdenc/arm.neds-den.com/auth/connect.php:1
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/auth/connect.php(1): PDO->__construct('mysql:dbname=au...', 'nedsdenc_1', 'Rathunona1.')
+#1 /home2/nedsdenc/arm.neds-den.com/auth/loging.php(15): include('/home2/nedsdenc...')
+#2 /home2/nedsdenc/arm.neds-den.com/index.php(10): include('/home2/nedsdenc...')
+#3 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/auth/connect.php on line 1
+[08-Apr-2021 11:12:04 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[09-Apr-2021 08:41:25 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[10-Apr-2021 04:46:57 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[10-Apr-2021 06:27:32 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[19-Apr-2021 04:42:16 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[30-Jun-2021 02:31:31 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[30-Jun-2021 02:31:42 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[01-Jul-2021 14:29:13 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[01-Jul-2021 14:29:20 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[01-Jul-2021 14:29:34 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[02-Jul-2021 01:38:31 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[02-Jul-2021 01:44:03 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[02-Jul-2021 01:45:11 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[02-Jul-2021 03:50:55 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[05-Jul-2021 07:26:42 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/arm.neds-den.com/auth/loging.php on line 40
+[13-Jul-2021 09:00:43 America/New_York] PHP Notice:  Undefined index: remember in /home2/nedsdenc/public_html/arm/auth/loging.php on line 40
+[13-Jul-2021 10:57:55 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nedsdenc_1'@'localhost' to database 'auth' in /home2/nedsdenc/public_html/arm/auth/loging.php on line 8
+[13-Jul-2021 10:57:59 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nedsdenc_1'@'localhost' to database 'auth' in /home2/nedsdenc/public_html/arm/auth/loging.php on line 8
+[13-Jul-2021 10:59:59 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nedsdenc_1'@'localhost' to database 'auth' in /home2/nedsdenc/public_html/arm/auth/loging.php on line 8
+[13-Jul-2021 11:00:03 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nedsdenc_1'@'localhost' to database 'auth' in /home2/nedsdenc/public_html/arm/auth/loging.php on line 8
+[13-Jul-2021 11:00:03 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home2/nedsdenc/public_html/arm/auth/loging.php on line 13
+[13-Jul-2021 11:00:03 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home2/nedsdenc/public_html/arm/auth/loging.php on line 14
+[13-Jul-2021 11:00:03 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home2/nedsdenc/public_html/arm/auth/loging.php on line 16
+[13-Jul-2021 11:00:03 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home2/nedsdenc/public_html/arm/auth/loging.php on line 17
+[13-Jul-2021 11:01:35 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/nedsdenc/public_html/arm/auth/loging.php on line 17
+[13-Jul-2021 11:01:39 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/nedsdenc/public_html/arm/auth/loging.php on line 17
+[13-Jul-2021 11:01:43 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/nedsdenc/public_html/arm/auth/loging.php on line 17

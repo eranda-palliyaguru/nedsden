@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^go/dashboard$ go/index.php [NC,L]
+RewriteRule ^go/make$ go/make.php [NC,L]
+RewriteRule ^go/model$ go/model.php [NC,L]
+RewriteRule ^go/sub$ go/sub.php [NC,L]
+RewriteRule ^go/diagram$ go/diagram.php [NC,L]
+RewriteRule ^go/diagram_view$ go/diagram_view.php [NC,L]

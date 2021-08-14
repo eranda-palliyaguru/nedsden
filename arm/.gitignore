@@ -1,0 +1,7 @@
+
+# Composer
+vendor/
+composer.phar
+go/connect.php
+auth/connect.php
+connect.php

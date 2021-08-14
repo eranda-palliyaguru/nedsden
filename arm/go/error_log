@@ -1,0 +1,783 @@
+[08-Apr-2021 10:21:58 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/connect.php:17
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include()
+#1 /home2/nedsdenc/arm.neds-den.com/go/index.php(38): include('/home2/nedsdenc...')
+#2 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/connect.php on line 17
+[08-Apr-2021 10:25:06 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'nedsdenc_1'@'localhost' to database 'nedsdenc_com' in /home2/nedsdenc/arm.neds-den.com/go/connect.php:17
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include()
+#1 /home2/nedsdenc/arm.neds-den.com/go/index.php(38): include('/home2/nedsdenc...')
+#2 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/connect.php on line 17
+[08-Apr-2021 19:58:02 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/model.php:99
+Stack trace:
+#0 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 99
+[08-Apr-2021 19:58:11 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.make' doesn't exist in /home2/nedsdenc/arm.neds-den.com/go/make.php:81
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/go/make.php(81): PDO->query('SELECT * FROM m...')
+#1 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/make.php on line 81
+[08-Apr-2021 20:48:34 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/model.php:99
+Stack trace:
+#0 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 99
+[09-Apr-2021 18:19:38 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/model.php:99
+Stack trace:
+#0 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 99
+[09-Apr-2021 18:20:19 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/model.php:99
+Stack trace:
+#0 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 99
+[09-Apr-2021 18:20:38 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/model.php:99
+Stack trace:
+#0 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 99
+[09-Apr-2021 18:20:59 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/model.php:99
+Stack trace:
+#0 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 99
+[09-Apr-2021 18:25:32 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/model.php:99
+Stack trace:
+#0 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 99
+[09-Apr-2021 18:25:50 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/nedsdenc/arm.neds-den.com/go/model.php:99
+Stack trace:
+#0 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 99
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[09-Apr-2021 18:39:44 Asia/Colombo] PHP Notice:  Undefined index: make_name in /home2/nedsdenc/arm.neds-den.com/go/model.php on line 136
+[10-Apr-2021 14:29:35 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/index.php(36): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[10-Apr-2021 14:45:00 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/model.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[10-Apr-2021 14:45:04 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/make.php(43): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[10-Apr-2021 14:45:05 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/index.php(36): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[10-Apr-2021 14:45:09 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/index.php(36): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[10-Apr-2021 14:52:21 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/model.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[10-Apr-2021 14:52:24 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/model.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[10-Apr-2021 14:52:25 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/cc.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[10-Apr-2021 14:52:27 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/model.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[19-Apr-2021 14:12:39 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.sub_model' doesn't exist in /home2/nedsdenc/arm.neds-den.com/go/sub.php:81
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/go/sub.php(81): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/sub.php on line 81
+[19-Apr-2021 14:13:01 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.sub_model' doesn't exist in /home2/nedsdenc/arm.neds-den.com/go/sub.php:81
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/go/sub.php(81): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/go/sub.php on line 81
+[19-Apr-2021 14:21:17 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/sub.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[19-Apr-2021 14:21:27 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/model.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[19-Apr-2021 14:21:28 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/arm.neds-den.com/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/arm.neds-den.com/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/arm.neds-den.com/go/index.php(36): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/arm.neds-den.com/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:08:49 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:08:52 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_com.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/index.php(36): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:14:27 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:14:32 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:14:33 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram_view.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:14:34 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:14:35 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram_view.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:14:37 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:14:38 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram_view.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:27:06 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram_view.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:41:05 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/index.php(36): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:46:19 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:46:22 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:46:25 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/index.php(36): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:46:29 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:46:31 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/index.php(36): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:47:26 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:47:28 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram_view.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:47:29 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:47:30 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram_view.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 18:47:31 Asia/Colombo] PHP Fatal error:  Uncaught Delight\Auth\DatabaseError: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nedsdenc_sales.users' doesn't exist in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php:163
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php(54): Delight\Auth\Auth->resyncSessionIfNecessary()
+#1 /home2/nedsdenc/public_html/arm/auth/auth.php(21): Delight\Auth\Auth->__construct(Object(PDO))
+#2 /home2/nedsdenc/public_html/arm/go/hed.php(2): include('/home2/nedsdenc...')
+#3 /home2/nedsdenc/public_html/arm/go/diagram_view.php(46): include('/home2/nedsdenc...')
+#4 {main}
+  thrown in /home2/nedsdenc/public_html/arm/vendor/delight-im/auth/src/Auth.php on line 163
+[13-Jul-2021 20:03:04 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:04 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:04 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:04 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:05 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:05 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:06 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:06 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:06 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:06 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:07 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:07 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:08 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:08 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:08 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:08 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:09 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:09 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:10 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:10 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:11 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:11 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:12 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:12 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:13 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:13 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:13 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:13 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:14 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:14 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:15 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:15 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:15 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:15 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:16 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:16 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:17 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:17 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:17 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:17 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:23 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:23 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:24 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:24 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:25 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:25 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:25 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:25 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:26 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:26 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:27 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:27 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:27 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:27 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:28 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:28 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:29 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:29 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:29 Asia/Colombo] PHP Notice:  Undefined variable: auth in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:03:29 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to a member function getUsername() on null in /home2/nedsdenc/public_html/arm/go/sidebar.php:17
+Stack trace:
+#0 /home2/nedsdenc/public_html/arm/go/index.php(37): include()
+#1 {main}
+  thrown in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:49 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:49 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:50 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:51 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:51 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:52 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:52 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:53 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:54 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:04:54 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:00 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:01 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:02 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:02 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:03 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:04 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:04 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:05 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:09 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:10 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:11 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:11 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:12 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:13 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:13 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:14 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:15 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:15 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:17 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:17 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:18 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:19 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:19 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:20 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:21 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:21 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:22 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:22 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:28 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:29 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:30 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:30 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:31 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:32 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:32 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:33 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:34 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:34 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:05:44 Asia/Colombo] PHP Notice:  Undefined variable: _SESSION in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:12 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:12 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:13 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:14 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:17 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:18 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:19 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:19 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:20 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:21 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:23 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:24 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:24 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:25 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:26 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:26 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:27 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:28 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:28 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:29 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:39 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:39 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:40 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:41 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:41 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:42 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:43 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:43 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:44 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:45 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:46 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:47 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:47 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:48 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:49 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:49 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:50 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:51 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:51 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:52 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:58 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:07:59 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:00 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:01 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:02 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:04 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:05 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:05 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:06 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:07 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:07 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:08 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:10 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:24 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:25 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:26 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:26 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:27 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:28 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:28 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:29 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:29 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:30 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:31 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:32 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:33 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:34 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:34 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:35 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:35 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:36 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:37 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:37 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:43 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:44 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:45 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:45 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:46 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:46 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:47 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:48 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:48 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:08:49 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:19 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:20 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:21 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:21 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:22 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:22 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:23 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:24 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:24 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:09:25 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:12 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:13 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:13 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:14 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:14 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:15 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:16 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:16 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:17 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:18 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:26 Asia/Colombo] PHP Notice:  Undefined variable: _SESSION in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:10:32 Asia/Colombo] PHP Notice:  Undefined variable: _SESSION in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:11:43 Asia/Colombo] PHP Notice:  Undefined variable: _SESSION in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:12:34 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:20 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:20 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:21 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:22 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:22 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:23 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:24 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:24 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:25 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:26 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:29 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:29 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:30 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:31 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:31 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:32 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:33 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:33 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:34 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:35 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:36 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:37 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:37 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:38 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:39 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:39 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:40 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:41 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:41 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:42 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:48 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:49 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:50 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:50 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:51 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:52 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:52 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:53 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:54 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:54 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:56 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:57 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:57 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:58 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:59 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:15:59 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:16:00 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:16:01 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:16:01 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:16:02 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:16:09 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 20:16:09 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:14:21 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:14:47 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:14:53 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:15:00 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:15:11 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:16:09 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:16:36 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:17:04 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:17:30 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:18:02 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:19:04 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:19:55 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[13-Jul-2021 21:20:44 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 01:14:23 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:31:51 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:31:59 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:32:04 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:33:40 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:49:05 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:49:16 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:49:24 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:51:51 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 08:59:10 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 13:46:57 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 14:39:52 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 15:49:07 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 15:49:13 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 15:49:20 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 15:57:28 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 17:22:10 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 17:22:16 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 18:57:31 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 18:57:46 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 18:57:49 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 20:56:17 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 21:51:28 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 21:52:49 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[14-Jul-2021 22:14:31 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[16-Jul-2021 12:27:41 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[20-Jul-2021 13:59:32 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[20-Jul-2021 13:59:32 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[21-Jul-2021 10:23:42 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[21-Jul-2021 10:23:43 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[21-Jul-2021 10:58:02 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[21-Jul-2021 10:58:29 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[21-Jul-2021 11:18:37 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[21-Jul-2021 11:18:37 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[22-Jul-2021 16:25:25 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[30-Jul-2021 00:12:22 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[30-Jul-2021 09:51:51 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[30-Jul-2021 09:52:04 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[30-Jul-2021 09:53:08 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[30-Jul-2021 11:37:11 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[30-Jul-2021 11:37:14 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[30-Jul-2021 11:37:19 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[30-Jul-2021 11:41:58 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[01-Aug-2021 10:22:12 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[01-Aug-2021 10:23:02 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[01-Aug-2021 10:23:09 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[01-Aug-2021 10:23:19 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[05-Aug-2021 12:14:23 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17
+[07-Aug-2021 08:52:57 Asia/Colombo] PHP Notice:  Undefined index: name in /home2/nedsdenc/public_html/arm/go/sidebar.php on line 17

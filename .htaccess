@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^dashboard$ index.php [NC,L]
+RewriteRule ^home$ index.php [NC,L]
+RewriteRule ^product-view$ product-detail.php [NC,L]
+RewriteRule ^login$ loging.php [NC,L]
+RewriteRule ^cart$ cart.php [NC,L]
+RewriteRule ^diagram$ diagram.php [NC,L]
