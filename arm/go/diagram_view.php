@@ -89,11 +89,13 @@ $stmt = $db->query("SELECT * FROM part WHERE diagram_id='$id' AND action='0'");
 while ($row = $stmt->fetch())
 {
  ?>
-      <tr> 
+      <tr class="record" > 
         <td><?php echo $row['diagram_part_no']; ?></td>
         <td><?php echo $row['part_number']; ?></td>
         <td><?php echo $row['name']; ?></td>
-        <td></td>
+        <td><a href="#" id="<?php echo $row['id']; ?>" class="delbutton" title="Click to Delete" > 
+        <button class="btn btn-danger"><i class="fa fa-trash"></i></button> 
+</a></td>
       </tr>
     <?php } ?>
       </tbody>
@@ -263,6 +265,39 @@ while ($row = $stmt->fetch())
 
 <script>
   $(function () {
+
+    
+$(".delbutton").click(function(){
+
+//Save the link in a variable called element
+var element = $(this);
+
+//Find the id of the link that was clicked
+var del_id = element.attr("id");
+
+//Built a url to send
+var info = 'id=' + del_id;
+ if(confirm("Sure you want to delete this PART? There is NO undo!"))
+		  {
+
+ $.ajax({
+   type: "GET",
+   url: "dll/part_dll.php",
+   data: info,
+   success: function(){
+
+   }
+ });
+         $(this).parents(".record").animate({ backgroundColor: "#fbc7c7" }, "fast")
+		.animate({ opacity: "hide" }, "slow");
+
+ }
+
+return false;
+
+});
+
+
      $('.select2').select2()
 
      $('.select2bs4').select2({

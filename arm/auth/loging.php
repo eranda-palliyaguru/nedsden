@@ -5,7 +5,7 @@
  {
  	header("location:go/dashboard");
  }
- $connect = mysqli_connect("localhost", "nedsdenc_1", "Rathunona1.", "nedsdenc_sales");
+ $connect = mysqli_connect("localhost", "root", "", "nedsden");
  if (isset($_POST["action"]))
  { $message = "data tabel success";
  	if (!empty($_POST["user_name"]) && !empty($_POST["user_password"]))
