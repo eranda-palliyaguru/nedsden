@@ -5,3 +5,4 @@ arm/images
 arm/dist/img
 arm/plugins
 arm/src
+arm/auth/loging.php
