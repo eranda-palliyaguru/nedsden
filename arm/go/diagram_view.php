@@ -117,8 +117,7 @@ while ($row = $stmt->fetch())
 </div>
 <!-- ./wrapper -->
 <div class="modal fade" id="modal-lg">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content bg-navy">
+    <div class="modal-dialog modal-lg"><div class="modal-content bg-navy">
         <div class="modal-header">
           <h4 class="modal-title">ADD PRODUCT</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -148,28 +147,28 @@ while ($row = $stmt->fetch())
                          <div class="col-sm-4">
                            <div class="form-group">
                              <label>Part Number</label>(ex: 123-GFR-11524)
-                             <input type="text" name="part_no" class="form-control" placeholder="Enter ..." autocomplete="off">
+                             <input type="text" name="part_no" class="form-control" placeholder="Enter ..." autocomplete="off" onchange="part1(this.value)">
                            </div>
                          </div>
                          
                     <div class="col-sm-4">
                            <div class="form-group">
                              <label>Other Part Number 1</label>
-                             <input type="text" name="part_no1" class="form-control" placeholder="Enter ..." autocomplete="off">
+                             <input type="text" name="part_no1" class="form-control" placeholder="Enter ..." autocomplete="off" onchange="part2(this.value)">
                            </div>
                          </div>
                          
                   <div class="col-sm-4">
                            <div class="form-group">
                              <label>Other Part Number 2</label>
-                             <input type="text" name="part_no2" class="form-control" placeholder="Enter ..." autocomplete="off">
+                             <input type="text" name="part_no2" class="form-control" placeholder="Enter ..." autocomplete="off" onchange="part3(this.value)">
                            </div>
                          </div>
                          
                  <div class="col-sm-4">
                            <div class="form-group">
                              <label>Other Part Number 3</label>
-                             <input type="text" name="part_no3" class="form-control" placeholder="Enter ..." autocomplete="off">
+                             <input type="text" name="part_no3" class="form-control" placeholder="Enter ..." autocomplete="off" onchange="part4(this.value)">
                            </div>
                          </div>
 
@@ -182,7 +181,9 @@ while ($row = $stmt->fetch())
 
                      </div>
 
-                               <div class="row">
+                     
+
+                               <div class="row"> 
                                          <div class="col-sm-12">
                                            <!-- text input -->
                                            <div class="form-group">
@@ -194,15 +195,21 @@ while ($row = $stmt->fetch())
 
 
 
-
-
+<div class="row">
+          <div id="sOUT"></div>
+          <div id="sOUT2"></div>
+          <div id="sOUT3"> </div>
+          <div id="sOUT4"> </div>
+          </div>
         </div>
         <div class="modal-footer justify-content-between">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
            <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>" >
           <button type="submit" class="btn btn-primary">Save</button>
           </form>
+          
         </div>
+        
       </div>
       <!-- /.modal-content -->
     </div>
@@ -473,6 +480,47 @@ return false;
     });
   });
 
+  function part1(str) {
+  if (str.length==0) {
+    document.getElementById("diagramOutput").innerHTML="";
+    return;
+  }
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("sOUT").innerHTML=this.responseText;
+    }
+  }
+
+  xmlhttp.open("GET","module/part_search.php?id="+str,true);
+  xmlhttp.send();
+}
+
+function part2(str) {
+  if (str.length==0) {
+    document.getElementById("diagramOutput").innerHTML="";
+    return;
+  }
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("sOUT2").innerHTML=this.responseText;
+    }
+  }
+
+  xmlhttp.open("GET","module/part_search.php?id="+str,true);
+  xmlhttp.send();
+}
 </script>
 
 
