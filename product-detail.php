@@ -115,15 +115,28 @@
                     <?php 
                   $stmt2 = $db->query("SELECT * FROM diagram WHERE id='$diagram_id' ");
                   while ($row2 = $stmt2->fetch()){  ?>
-               <a href="diagram?id=<?php echo $diagram_id; ?>"> <img class="rev-slidebg" src="images/diagram/<?php echo $row2['img']; ?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" data-no-retina>
+               <a href="diagram?id=<?php echo $diagram_id; ?>"> <img onmousemove="myFunction(event)" onmouseout="clearCoor()" class="rev-slidebg" src="images/diagram/<?php echo $row2['img']; ?>" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" data-no-retina>
                </a> <?php } ?>
                 </li>
-
+                <p id="demo"></p>
             </div>
           <?php } ?>
           </div>
         </div>
       </div>
 
+    
 
+<script>
+function myFunction(e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  var coor = "Coordinates: (" + x + "," + y + ")";
+  document.getElementById("demo").innerHTML = coor;
+}
+
+function clearCoor() {
+  document.getElementById("demo").innerHTML = "";
+}
+</script>
     <?php include('foote.php'); ?>

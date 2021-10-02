@@ -1,4 +1,4 @@
-<?php include('hed.php'); ?>
+
 
     <main class="ps-main">
 
@@ -31,9 +31,9 @@ while ($row = $stmt->fetch())
 
    
         
-        <?php if(isset($_COOKIE["model"])){ include('diagram_list.php');  ?>    
+            
                        
-<?php }else{ ?>
+
       <div id="diagramOutput"><?php include('select_mack_img.php'); ?></div>    
 
      
@@ -85,95 +85,4 @@ while ($row = $stmt->fetch())
         </div>
       </div>
 
-<?php } ?>
 
-<?php include('foote.php'); ?>
-<script>
-function showRSS(str) {
-  if (str.length==0) {
-    document.getElementById("modelOutput").innerHTML="";
-    return;
-  }
-  if (window.XMLHttpRequest) {
-    // code for IE7+, Firefox, Chrome, Opera, Safari
-    xmlhttp=new XMLHttpRequest();
-    xmlhttp1=new XMLHttpRequest();
-  } else {  // code for IE6, IE5
-    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    xmlhttp1=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-  xmlhttp.onreadystatechange=function() {
-    if (this.readyState==4 && this.status==200) {
-      document.getElementById("modelOutput").innerHTML=this.responseText;
-    }
-  }
-
-  xmlhttp1.onreadystatechange=function() {
-    if (this.readyState==4 && this.status==200) {   
-      document.getElementById("diagramOutput").innerHTML=this.responseText;
-    }
-  }
-
-  xmlhttp.open("GET","select_model.php?id="+str,true);
-  xmlhttp.send();
-
-  xmlhttp1.open("GET","select_model_img.php?id="+str,true);
-  xmlhttp1.send();
-}
-
-
-function model_rss(str) {
-  if (str.length==0) {
-    document.getElementById("subOutput").innerHTML="";
-    return;
-  }
-  if (window.XMLHttpRequest) {
-    // code for IE7+, Firefox, Chrome, Opera, Safari
-    xmlhttp=new XMLHttpRequest();
-    xmlhttp1=new XMLHttpRequest();
-  } else {  // code for IE6, IE5
-    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    xmlhttp1=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-
-  xmlhttp.onreadystatechange=function() {
-    if (this.readyState==4 && this.status==200) {
-      document.getElementById("subOutput").innerHTML=this.responseText;
-    }
-  }
-
-  xmlhttp1.onreadystatechange=function() {
-    if (this.readyState==4 && this.status==200) {
-      document.getElementById("diagramOutput").innerHTML=this.responseText;
-    }
-  }
-
-  xmlhttp.open("GET","select_sub_model.php?id="+str,true);
-  xmlhttp.send();
-
-  xmlhttp1.open("GET","select_sub_model_img.php?id="+str,true);
-  xmlhttp1.send();
-}
-
-function sub_rss(str) {
-  if (str.length==0) {
-    document.getElementById("diagramOutput").innerHTML="";
-    return;
-  }
-  if (window.XMLHttpRequest) {
-    // code for IE7+, Firefox, Chrome, Opera, Safari
-    xmlhttp=new XMLHttpRequest();
-  } else {  // code for IE6, IE5
-    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-
-  xmlhttp.onreadystatechange=function() {
-    if (this.readyState==4 && this.status==200) {
-      document.getElementById("diagramOutput").innerHTML=this.responseText;
-    }
-  }
-
-  window.location.href = "model_cookie.php?id="+str;
-
-}
-</script>
