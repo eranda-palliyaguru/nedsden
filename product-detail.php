@@ -30,7 +30,7 @@
                   </div>
                 </div>
                 <div class="ps-product__image">
-                  <div class="item"><img class="zoom" src="images/part/<?php echo $row['img'] ; ?>" alt="" data-zoom-image="images/product/<?php echo $row['img1'] ; ?>"></div>
+                  <div class="item"><img class="zoom" src="images/part/<?php echo $row['img'] ; ?>" alt="" data-zoom-image="images/product/<?php echo $row['img'] ; ?>"></div>
                   <?php
                   $stmt2 = $db->query("SELECT * FROM img_hub WHERE product_id='$id' ");
                   while ($row2 = $stmt2->fetch()){  ?>
@@ -51,14 +51,19 @@
               </div>
               <div class="ps-product__info">
                 <h1 style="color:white;"><?php echo $row['name']; ?></h1>
-                <p class="ps-product__category"><a href="#"> <?php echo $row['brand']; ?></a></p>
+                <p class="ps-product__category">  </p>
                 <h1 class="price" style="color:red;"><?php echo $row['part_number']; ?></h1>
 
 
   <form action="add_cart.php" method="post">
                 <div class="ps-product__block ps-product__size">
                   <h4>QTY</h4>
-
+                  <select class="ps-btn"  name="product" >
+              
+              <?php $stmt1 = $db->query("SELECT * FROM products  ORDER by id ASC LIMIT 4 ");
+              while ($row1 = $stmt1->fetch())
+              { ?>  <option value="<?php echo $row1['id']; ?>">Rs.<?php echo $row1['price']; ?></option> <?php } ?>
+                          </select>
                   <div class="form-group">
                     <input class="form-control" type="number" value="1" name="qty">
                   </div>

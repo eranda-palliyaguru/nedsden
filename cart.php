@@ -25,7 +25,7 @@ $i=0;$tot=0;$tot_qty=0;
 
           foreach($cart_data as $i => $values ){
         $pro=$values['id'];
-            $stmt = $db->query("SELECT * FROM product WHERE id='$pro' ");
+            $stmt = $db->query("SELECT * FROM products WHERE id='$pro' ");
            while ($row = $stmt->fetch())
            { $price=$row['sell_price']*$values['qty'];  }
           ?>
@@ -51,17 +51,12 @@ $i=0;$tot=0;$tot_qty=0;
             </table>
             <div class="ps-cart__actions">
               <div class="ps-cart__promotion">
-                <div class="form-group">
-                  <div class="ps-form--icon"><i class="fa fa-angle-right"></i>
-                    <input class="form-control" type="text" placeholder="Promo Code">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <button class="ps-btn ps-btn--gray">Continue Shopping</button>
+                <div class="form-group"> 
+                <a href="home"><button  class="ps-btn ps-btn--gray">Continue Shopping</button></a>
                 </div>
               </div>
               <div class="ps-cart__total">
-                <h3>Total Price: <span> Rs.<?php  echo number_format($tot,2); ?> </span></h3><a class="ps-btn" href="checkout.html">Process to checkout<i class="ps-icon-next"></i></a>
+                <h3>Total Price: <span> Rs.<?php  echo number_format($tot,2); ?> </span></h3><a class="ps-btn ps-btn--gray" href="checkout.html">Process to checkout<i class="ps-icon-next"></i></a>
               </div>
             </div>
           </div>

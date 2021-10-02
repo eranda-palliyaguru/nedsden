@@ -2,7 +2,7 @@
  session_start();
  include('connect.php');
 
-$id=$_POST['id'];
+$id=$_POST['product'];
 $qty=$_POST['qty'];
 
 if (isset($id)) {
@@ -12,9 +12,9 @@ $cookie_data = stripslashes($_COOKIE['ct']);
 $cart_data = json_decode($cookie_data, true);
 }
 
-$stmt = $db->query("SELECT * FROM product WHERE id='$id' ");
+$stmt = $db->query("SELECT * FROM products WHERE id='$id' ");
  while ($row = $stmt->fetch())
- { $name=$row['name']; $img=$row['img1']; }
+ { $name=$row['name']; $img=$row['img']; }
 
 
 $value = array(

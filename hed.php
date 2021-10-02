@@ -149,7 +149,7 @@ if (isset($_SESSION["name"]))
     $i=0;$tot=0;$tot_qty=0;
     foreach($cart_data as $i => $values ){
   $pro=$values['id'];
-      $stmt = $db->query("SELECT * FROM product WHERE id='$pro' ");
+      $stmt = $db->query("SELECT * FROM products WHERE id='$pro' ");
      while ($row = $stmt->fetch())
      { $price=$row['sell_price']*$values['qty'];  }
      ?>

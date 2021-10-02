@@ -52,6 +52,12 @@ while ($row = $stmt->fetch())
                         <div class="ps-shoe__variants"> <br>
 
                           <form  action="add_cart.php" method="post">
+                          <select style="background-color: black; color:red; width:260px; font-size: 20px;" name="product" >
+              
+              <?php $stmt1 = $db->query("SELECT * FROM products  ORDER by id ASC LIMIT 4 ");
+              while ($row1 = $stmt1->fetch())
+              { ?>  <option value="<?php echo $row1['id']; ?>">Rs.<?php echo $row1['price']; ?></option> <?php } ?>
+                          </select>
                             <input type="hidden" name="id" value="<?php echo $product_id; ?>">
                             <input type="number" class="ps-btn ps-btn--gray" style="width:100px;" name="qty" value="1">
                             <input type="submit" class="ps-btn" value="ADD CART">
